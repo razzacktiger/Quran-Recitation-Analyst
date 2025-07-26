@@ -1,0 +1,34 @@
+# Latest 2025 versions - Core Framework
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# Database & ORM - Compatible versions
+sqlalchemy>=2.0.36,<3.0.0
+sqlmodel>=0.0.24,<1.0.0
+psycopg2-binary>=2.9.10,<3.0.0
+alembic>=1.14.0,<2.0.0
+
+# Validation & Settings - Compatible Pydantic v2
+pydantic>=2.11.7,<3.0.0
+pydantic-settings>=2.7.0,<3.0.0
+
+# HTTP & File Handling
+python-multipart>=0.0.17,<1.0.0
+httpx>=0.28.1,<1.0.0
+python-dotenv>=1.0.1,<2.0.0
+aiofiles>=24.1.0,<25.0.0  # For async file operations
+
+# Authentication - More secure & updated
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Cloud Services - Compatible versions
+supabase>=2.17.0,<3.0.0
+
+# AI Services - Latest Official SDKs (2025)
+openai>=1.56.0,<2.0.0
+google-genai>=1.0.0,<2.0.0  # New Google GenAI SDK (replaces google-generativeai)
+
+# Testing - Compatible versions
+pytest>=8.3.0,<9.0.0
+pytest-asyncio>=0.24.0,<1.0.0 
